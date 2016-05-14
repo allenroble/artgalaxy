@@ -1,0 +1,8 @@
+
+#
+# Project configuration file for
+# artgalaxy
+
+projectname: artgalaxy
+vendorid: com.lens
+mainmodule: com.lens.artgalaxy

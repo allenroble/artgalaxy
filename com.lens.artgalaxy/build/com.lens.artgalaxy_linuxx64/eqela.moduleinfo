@@ -1,0 +1,11 @@
+ldflags: -leq.widget -leq.gui.sceneapplication -leq.gui.engine -leq.gui.sysdep.gtk -leq.gui.vg -leq.gui -leq.os.task -leq.os -leq.util.string -leq.io -leq.api -Wl,-rpath,$ORIGIN -L. -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfontconfig -lgobject-2.0 -lglib-2.0 -lfreetype -lpthread -lutil -lm
+depends: eq.api,eq.io,eq.os,eq.gui,eq.gui.engine,eq.widget
+moduletype: application
+platform: linuxx64
+url: 
+license: 
+copyright: 
+version: 1.0.0
+description: 
+displayname: artgalaxy
+id: com.lens.artgalaxy
